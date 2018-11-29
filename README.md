@@ -17,3 +17,11 @@ SQLAdvisor是由美团点评公司技术工程部DBA团队（北京）开发维�
 如果用户在实际的应用场景中对SQLAdvisor有新的功能需求，或者在使用SQLAdvisor的过程中发现了bug，在github上进行交流或是PullRequest，也可以在讨论组/群进行反馈，我们会及时维护。
 
 ![QQ](./doc/img/qq.png)
+
+
+### 不用编译安装
+
+use-directly文件夹下为不用编译直接使用的
+tar -xf sqlparser.tar.gz  /usr/local
+chmod +x sqladvisor
+echo "你的慢日志"| ./sqladvisor
