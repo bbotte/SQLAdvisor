@@ -4,7 +4,7 @@
 
 1. use-directly文件夹下为不用编译直接使用的
 
-   tar -xf sqlparser.tar.gz  /usr/local
+   tar -xf sqlparser.tar.gz - /usr/local
 
    chmod +x sqladvisor
 
