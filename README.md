@@ -2,11 +2,10 @@
 
 0. 不用编译，直接使用是在centos 7.5上编译的
 
-1. use-directly文件夹下为不用编译直接使用的
+1. use-directly文件夹下为不用编译直接使用的,必须解压到/usr/local目录
 
-   tar -xf sqlparser.tar.gz - /usr/local
-
-   chmod +x sqladvisor
+       tar -xf sqlparser.tar.gz -C /usr/local
+       chmod +x sqladvisor
 
 
 2. echo "你的慢日志"| ./sqladvisor
