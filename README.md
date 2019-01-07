@@ -6,9 +6,12 @@
 
        tar -xf sqlparser.tar.gz -C /usr/local
        chmod +x sqladvisor
+       mv sqladvisor /usr/bin/sqladvisor
 
 
-2. echo "你的慢日志"| ./sqladvisor
+2. echo "你的慢日志"| sqladvisor  或者
+
+       sqladvisor -h 127.0.0.1 -P 3306 -u root -p 123456 -d test -q "select version();"
 
 
 
